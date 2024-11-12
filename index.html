@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=3, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Minhas Futuras Aventuras</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="logo">Minhas Futuras Aventuras</h1>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#aventuras">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="sobre" class="section">
+      <div class="container">
+        <h2>Sobre Mim</h2>
+        <p>
+          Olá, sou um estudante de programação e estou aprendendo e ajudando
+          outros a aprender
+        </p>
+      </div>
+    </section>
+    <section id="aventuras" class="aventuras">
+      <div class="container">
+        <div class="aventuras-grid">
+          <div class="aventuras-item">
+            <img
+              src="assets/image/2023-06-15.jpg"
+              alt="foto Inglaterra-harry potter"
+            />
+            <h3>Inglaterra</h3>
+            <p>
+              A Inglaterra é o coração do universo de Harry Potter, com locais
+              icônicos como a plataforma 9¾ em King's Cross e a Warner Bros.
+              Studio Tour. Oxford e catedrais como Gloucester ajudaram a dar
+              vida a Hogwarts.
+            </p>
+          </div>
+          <div class="aventuras-item">
+            <img
+              src="assets/image/Viaduto-Glenfinnan.png"
+              alt="foto escocia-harry potter"
+            />
+            <h3>Escócia</h3>
+            <p>
+              A Escócia trouxe paisagens mágicas aos filmes de Harry Potter,
+              como o famoso Viaduto de Glenfinnan, por onde passa o Expresso de
+              Hogwarts. Suas montanhas e lagos aparecem em cenas marcantes.
+            </p>
+          </div>
+          <div class="aventuras-item">
+            <img
+              src="assets/image/Cliffs-of-Moher-Sunset.jpg"
+              alt="projeto portifolio"
+            />
+            <h3>Irlanda</h3>
+            <p>
+              Na Irlanda, os Cliffs of Moher foram destaque em "Harry Potter e o
+              Enigma do Príncipe". Com paisagens dramáticas, a Irlanda adicionou
+              mistério e aventura ao mundo mágico.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="contato">
+      <div class="container">
+        <h2>Entre em contato comigo</h2>
+        <p>
+          Quer entrar em contato, por favor deixe uma mensagem preenchendo o
+          formulario
+        </p>
+        <form
+          action="https://formsubmit.co/natanaelmelo.dev@gmail.com"
+          method="POST"
+        >
+          <input type="text" name="Nome" placeholder="Nome" required />
+          <input type="email" name="Email" placeholder="Seu Email" required />
+          <textarea
+            name="Mensagem"
+            rows="4"
+            placeholder="Deixe sua mensagem"
+            required
+          ></textarea>
+          <button type="submit" class="btn">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2024 FSN4 - Capacita Brasil. Todos os direitos reservados</p>
+      </div>
+    </footer>
+  </body>
+</html>
